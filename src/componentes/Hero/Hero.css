@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap');
+
+:root{
+  --base: 0.6rem
+}
+
+.hero{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url(../../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  /* background-attachment: fixed; */
+
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero_title{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 200;
+  align-self: center;
+  text-align: center;
+}
+
+.bold{
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.main{
+  height: 100vh;
+}
+
+.layer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.container_hero{
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  justify-items: center;
+  align-content: center;
+}
+
+.hero_logo{
+  align-self: end;
+  width: 170px;
+}
+
+button{
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 16px;
+  padding: 0 25px;
+  cursor: pointer;
+  align-self: center;
+  transition: color 1s,background-color .5s;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  transition: color 1s,background-color .5s;
+}
+
+@media (min-width:768px){
+  .hero_title{
+    font-size: 35px;
+  }
+
+  .bold{
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .hero{
+    padding: 0 180px;
+  }
+}
