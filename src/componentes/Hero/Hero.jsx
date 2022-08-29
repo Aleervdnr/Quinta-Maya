@@ -11,7 +11,11 @@ export default function Hero() {
         <p className='hero_title'>
           ¡Celebrá tu <span className='bold'>evento</span> con nosotros!
         </p>
-        <button>Contacto</button>
+
+        <div className="button-container">
+        <a className='btn btn1'>Contacto</a>
+        <a href='#about' className='btn btn2'>Ver más</a>
+        </div>
 
       </div>
     </div>

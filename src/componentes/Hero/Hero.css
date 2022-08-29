@@ -34,10 +34,6 @@
   font-size: 28px;
 }
 
-.main{
-  height: 100vh;
-}
-
 .layer{
   position: absolute;
   left: 0;
@@ -60,23 +56,51 @@
   width: 170px;
 }
 
-button{
-  height: 45px;
-  background-color: transparent;
-  border: 1px solid white;
-  color: white;
-  border-radius: 16px;
-  padding: 0 25px;
-  cursor: pointer;
+.button-container{
   align-self: center;
-  transition: color 1s,background-color .5s;
 }
 
-button:hover{
+.btn{
+  border: none;
+  height: 100%;
+  min-height: 45px;
+  background-color: transparent;
+  border-radius: 16px;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: color 1s,background-color .5s;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.btn1{
+  border: 1px solid white;
+  color: white;
+}
+
+.btn2{
+  background-color: white;
+  color: black;
+}
+
+
+.btn1:hover{
   background-color: white;
   color: black;
   transition: color 1s,background-color .5s;
 }
+
+
+.btn2:hover, 
+.btn2:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 .7em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 white; }
+}
+
 
 @media (min-width:768px){
   .hero_title{
@@ -85,6 +109,10 @@ button:hover{
 
   .bold{
     font-size: 40px;
+  }
+
+  .btn{
+    margin: 0 25px;
   }
 }
 
