@@ -8,6 +8,11 @@
   grid-row-start: 1;
 }
 
+.servicios{
+  background-color: black;
+  color: white;
+}
+
 .container-ul{
   display: flex;
   gap: 35px;

@@ -1,0 +1,103 @@
+.galeria{
+padding: 40px 22px;
+}
+
+.galeria-title{
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 110px 1fr ;
+  align-items: center;
+  justify-items: center;
+}
+
+.galeria_title{
+  width: fit-content;
+}
+
+.line{
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid black;
+}
+
+.galeria-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  grid-auto-rows: minmax(250px,auto);
+  gap: 15px;
+  max-width: 780px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.galeria_item-container{
+  overflow: hidden;
+}
+.galeria-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.galeria-item:nth-child(1){
+  background-image: url(../../img/g6.jpg);
+}
+
+.galeria_item-container:nth-child(2)>.galeria-item{
+  background-image: url(../../img/about.jpg);
+}
+
+.galeria_item-container:nth-child(3)>.galeria-item{
+  background-image: url(../../img/fondo.jpg);
+}
+
+.galeria_item-container:nth-child(4)>.galeria-item{
+  background-image: url(../../img/g7.jpg);
+}
+
+.galeria_item-container:nth-child(5)>.galeria-item{
+  background-image: url(../../img/g9.jpg);
+}
+
+.galeria_item-container:nth-child(6)>.galeria-item{
+  background-image: url(../../img/g3.jpg);
+}
+
+.galeria_item-container:nth-child(7)>.galeria-item{
+  background-image: url(../../img/g2.jpg);
+}
+
+.galeria_item-container:nth-child(8)>.galeria-item{
+  background-image: url(../../img/servcicios.jpg);
+}
+
+.galeria_item-container:nth-child(9)>.galeria-item{
+  background-image: url(../../img/g5.jpg);
+}
+
+.galeria_item-container:nth-child(10)>.galeria-item{
+  background-image: url(../../img/img1.jpg);
+}
+.galeria_item-container:nth-child(11)>.galeria-item{
+  background-image: url(../../img/img2.jpg);
+}
+.galeria_item-container:nth-child(12)>.galeria-item{
+  background-image: url(../../img/img3.jpg);
+}
+
+@media screen and (min-width:768px) {
+  .galeria-item{
+    transition: all 1s;
+  }
+
+  .galeria-item:hover{
+    transform: scale(1.1);
+  }
+}

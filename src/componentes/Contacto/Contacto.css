@@ -1,0 +1,92 @@
+.contacto{
+  background-color: black;
+  width: 100%;
+}
+.contacto-container{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  color: white;
+  padding: 50px 20px;
+} 
+
+.contacto_ul{
+  padding: 0;
+}
+
+.contacto_li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contacto-dot{
+  font-size: 25px;
+}
+
+.contacto-icon{
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.icons{
+  margin-top: 20px;
+  display: flex;
+  gap: 7px;
+}
+
+.iframe{
+  border: 0;
+  max-width: 400px;
+  /* margin: 0 22px; */
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+.copy{
+  font-size: 12px;
+  text-align: center;
+}
+
+
+@media screen and (min-width:768px) {
+
+  .contacto_texto{
+    padding-left: 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    }
+
+  .contacto-container{
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .container-ul{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contacto_map{
+    width: 100%;
+    grid-row-start: 1;
+    padding: 25px 0;
+  }
+
+}

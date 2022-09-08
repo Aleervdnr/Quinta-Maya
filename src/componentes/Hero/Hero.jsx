@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
 
         <div className="button-container">
-        <a className='btn btn1'>Contacto</a>
+        <a className='btn btn1' href='#contacto'>Contacto</a>
         <a href='#about' className='btn btn2'>Ver más</a>
         </div>
 

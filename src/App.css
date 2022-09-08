@@ -3,6 +3,21 @@
   scroll-behavior: smooth;
 }
 
+.App{
+  background-color: whitesmoke;
+}
+
+.servicios{
+  max-width: 1440px;
+  margin: 0 auto ;
+}
+
+.about,.galeria{
+  max-width: 850px;
+  margin: 0 auto;
+  background-color: white;
+}
+
 .container{
   width: 100%;
   height: 100%;
@@ -25,10 +40,9 @@
 
 @media screen and (min-width:768px){
   .container-section{
-    /* height: 100vh; */
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 100vh;
+    min-height: 640px;
   }
 
   .container-texto{
