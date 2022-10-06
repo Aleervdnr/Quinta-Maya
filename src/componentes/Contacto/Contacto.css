@@ -1,16 +1,21 @@
-.contacto{
-  background-color: black;
-  width: 100%;
-}
 .contacto-container{
   max-width: 1440px;
   margin: 0 auto;
   display: grid;
   justify-content: center;
   justify-items: center;
-  color: white;
   padding: 50px 20px;
 } 
+
+.contacto-title{
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 120px 1fr ;
+  align-items: center;
+  justify-items: center;
+}
 
 .contacto_ul{
   padding: 0;
@@ -22,27 +27,26 @@
   align-items: center;
   justify-content: center;
   margin-top: 10px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 15px 20px;
+}
+
+.contacto_li:first-child{
+  border: 1px solid rgb(32, 32, 32);
+  background-color: transparent;
+  color: black;
 }
 
 .contacto-dot{
   font-size: 25px;
 }
 
-.contacto-icon{
-  color: black;
-  background-color: white;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  padding: 10px;
-  font-size: 22px;
+.texto-container{
+  text-align: center;
 }
 
-.icons{
-  margin-top: 20px;
-  display: flex;
-  gap: 7px;
-}
+
 
 .iframe{
   border: 0;
@@ -50,16 +54,10 @@
   /* margin: 0 22px; */
 }
 
-.icons{
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
 
-
-.copy{
-  font-size: 12px;
-  text-align: center;
+.call{
+  /* text-decoration: none; */
+  color: white;
 }
 
 
@@ -87,6 +85,10 @@
     width: 100%;
     grid-row-start: 1;
     padding: 25px 0;
+  }
+
+  .contacto-container{
+    padding-top: 0;
   }
 
 }

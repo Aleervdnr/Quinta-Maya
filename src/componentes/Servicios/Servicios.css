@@ -9,7 +9,7 @@
 }
 
 .servicios{
-  background-color: black;
+  background-color: rgb(32, 32, 32);
   color: white;
 }
 
@@ -37,6 +37,14 @@
   min-width: 25px;
 }
 
+.box{
+  padding: 15px;
+  border: 1px solid white;
+  box-shadow: 10px 10px 0px 0px rgb(255,255,255);
+  -webkit-box-shadow: 10px 10px 0px 0px rgb(255,255,255);
+  -moz-box-shadow: 10px 10px 0px 0px rgb(255,255,255);
+}
+
 @media screen and (min-width:768px) {
 
   .servicios_img{
@@ -53,6 +61,21 @@
   .container-ul{
     flex-direction: column;
     gap: 15px;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .box:first-child{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .servicios_li{
+    width: fit-content;
   }
 
 }

@@ -7,25 +7,25 @@ export default function Contacto() {
 
   return (
     <div className='contacto' id='contacto'>
+            <div className="contacto-title">
+        <div className="line"></div>
+        <h2 className='contacto_title'>Contacto</h2>
+        <div className="line"></div>
+      </div>
       <div className="contacto-container">
       <div className="contacto_texto">
         <div className='texto-container'>
-        <div className="icons">
-              <FaFacebookF className='contacto-icon'/>
-              <FaInstagram className='contacto-icon'/>
-              <FaWhatsapp className='contacto-icon'/>
-            </div>
+
+          <span>¡Hacemos tu evento a medida!</span>
 
           <ul className="contacto_ul">
             <li className="contacto_li">
-                Glew, Almirante Brown,Bs.As.</li>
+            📍 Glew, Almirante Brown, Zona Sur, Bs. As.</li>
             <li className="contacto_li">
-              11 3392-8295</li>
-              <li className="contacto_li copy">
-              Copyright 2022 © Quinta Maya - Todos los derechos reservados.</li>
-
+              <a className='call' href="tel:+541133928295">📲 WhatsApp: 11 3392-8295</a>
+            </li>
           </ul>
-
+          <span>Contactanos para ampliar la información.</span>
         </div>
 
       </div>
