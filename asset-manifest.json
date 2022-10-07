@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Quinta-Maya/static/css/main.8ee9be16.css",
-    "main.js": "/Quinta-Maya/static/js/main.38b6e615.js",
+    "main.css": "/Quinta-Maya/static/css/main.d8588605.css",
+    "main.js": "/Quinta-Maya/static/js/main.cabe4105.js",
     "static/media/g5.jpg": "/Quinta-Maya/static/media/g5.3f5238d1679931862da6.jpg",
     "static/media/g6.jpg": "/Quinta-Maya/static/media/g6.a7f30c6b93048dbd91d2.jpg",
     "static/media/fondo.jpg": "/Quinta-Maya/static/media/fondo.0529c0aa52fbcdf1cbab.jpg",
@@ -18,11 +18,11 @@
     "static/media/logo.png": "/Quinta-Maya/static/media/logo.460a1fdd60d16d3b1d03.png",
     "static/media/logo2.png": "/Quinta-Maya/static/media/logo2.98bffdc533b68780603e.png",
     "index.html": "/Quinta-Maya/index.html",
-    "main.8ee9be16.css.map": "/Quinta-Maya/static/css/main.8ee9be16.css.map",
-    "main.38b6e615.js.map": "/Quinta-Maya/static/js/main.38b6e615.js.map"
+    "main.d8588605.css.map": "/Quinta-Maya/static/css/main.d8588605.css.map",
+    "main.cabe4105.js.map": "/Quinta-Maya/static/js/main.cabe4105.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ee9be16.css",
-    "static/js/main.38b6e615.js"
+    "static/css/main.d8588605.css",
+    "static/js/main.cabe4105.js"
   ]
 }
