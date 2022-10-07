@@ -1,28 +1,15 @@
 {
   "files": {
-    "main.css": "/Quinta-Maya/static/css/main.d8588605.css",
-    "main.js": "/Quinta-Maya/static/js/main.cabe4105.js",
-    "static/media/g5.jpg": "/Quinta-Maya/static/media/g5.3f5238d1679931862da6.jpg",
-    "static/media/g6.jpg": "/Quinta-Maya/static/media/g6.a7f30c6b93048dbd91d2.jpg",
-    "static/media/fondo.jpg": "/Quinta-Maya/static/media/fondo.0529c0aa52fbcdf1cbab.jpg",
-    "static/media/hero.jpg": "/Quinta-Maya/static/media/hero.e658183312a108b58df4.jpg",
-    "static/media/g9.jpg": "/Quinta-Maya/static/media/g9.0101fb3fd06fe1b5f874.jpg",
-    "static/media/servcicios.jpg": "/Quinta-Maya/static/media/servcicios.e29b9a21f7355e47b0be.jpg",
-    "static/media/g7.jpg": "/Quinta-Maya/static/media/g7.499482013813e8b38a12.jpg",
-    "static/media/img3.jpg": "/Quinta-Maya/static/media/img3.3ab8315113c5e8805a95.jpg",
-    "static/media/img2.jpg": "/Quinta-Maya/static/media/img2.4a2e4d6e7dc455ccde08.jpg",
-    "static/media/g2.jpg": "/Quinta-Maya/static/media/g2.f080d6d2ec3779a32178.jpg",
-    "static/media/about.jpg": "/Quinta-Maya/static/media/about.804c19f234653b9120ae.jpg",
-    "static/media/g3.jpg": "/Quinta-Maya/static/media/g3.f12d6d9ff434efaef94c.jpg",
-    "static/media/img1.jpg": "/Quinta-Maya/static/media/img1.95efbc01c33d474df9ed.jpg",
+    "main.css": "/Quinta-Maya/static/css/main.c382f3be.css",
+    "main.js": "/Quinta-Maya/static/js/main.42e523af.js",
     "static/media/logo.png": "/Quinta-Maya/static/media/logo.460a1fdd60d16d3b1d03.png",
     "static/media/logo2.png": "/Quinta-Maya/static/media/logo2.98bffdc533b68780603e.png",
     "index.html": "/Quinta-Maya/index.html",
-    "main.d8588605.css.map": "/Quinta-Maya/static/css/main.d8588605.css.map",
-    "main.cabe4105.js.map": "/Quinta-Maya/static/js/main.cabe4105.js.map"
+    "main.c382f3be.css.map": "/Quinta-Maya/static/css/main.c382f3be.css.map",
+    "main.42e523af.js.map": "/Quinta-Maya/static/js/main.42e523af.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8588605.css",
-    "static/js/main.cabe4105.js"
+    "static/css/main.c382f3be.css",
+    "static/js/main.42e523af.js"
   ]
 }
