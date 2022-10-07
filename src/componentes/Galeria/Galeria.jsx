@@ -54,18 +54,16 @@ export default function Galeria() {
       <div className="galeria_item-container" data-aos="fade-in">
         <div className="galeria-item"></div>
       </div>
-      {/* <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div>
-      <div className="galeria-item"></div> */}
+      <div className="galeria_item-container" data-aos="fade-in">
+        <div className="galeria-item"></div>
+      </div>
+      <div className="galeria_item-container" data-aos="fade-in">
+        <div className="galeria-item"></div>
+      </div>
+      <div className="galeria_item-container" data-aos="fade-in">
+        <div className="galeria-item"></div>
+      </div>
+
     </div>
     </div>
   )
