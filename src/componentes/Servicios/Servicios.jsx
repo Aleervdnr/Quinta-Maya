@@ -4,14 +4,22 @@ import { GiPartyPopper,GiGlassCelebration,GiDiamondRing,GiTravelDress, GiPeaceDo
 import {FaBaby} from "react-icons/fa"
 import {RiCake2Line} from "react-icons/ri"
 import {AiOutlineCheck} from "react-icons/ai"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 
 export default function Servicios() {
+
+  useEffect(()=> {
+    AOS.init({duration: 2000})
+  },[])
+
   return (
     <div className='servicios container-section'>
       <div className="servicios_texto container-texto">
-        <h2>¡Veni a festejar con nosotros!</h2>
-        <div className="container-ul">
+        <h2 data-aos="fade-in">¡Veni a festejar con nosotros!</h2>
+        <div className="container-ul" data-aos="fade-up">
           <div className="box">
             <h3>Celebrá con nosotros</h3>
             <ul className='servicios_ul'>

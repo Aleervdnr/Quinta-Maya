@@ -45,6 +45,10 @@
   -moz-box-shadow: 10px 10px 0px 0px rgb(255,255,255);
 }
 
+.servicios_texto{
+  overflow: hidden;
+}
+
 @media screen and (min-width:768px) {
 
   .servicios_img{

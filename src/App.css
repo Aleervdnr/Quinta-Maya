@@ -3,19 +3,26 @@
   scroll-behavior: smooth;
 }
 
+body{
+  /* overflow-x: hidden; */
+}
+
 .App{
   background-color: whitesmoke;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 .servicios{
   max-width: 1440px;
   margin: 0 auto ;
+  /* overflow: hidden; */
 }
 
 .about,.galeria,.contacto{
   max-width: 850px;
   margin: 0 auto;
   background-color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container{
