@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.css": "/Quinta-Maya/static/css/main.c382f3be.css",
-    "main.js": "/Quinta-Maya/static/js/main.42e523af.js",
+    "main.css": "/Quinta-Maya/static/css/main.fc04af46.css",
+    "main.js": "/Quinta-Maya/static/js/main.ea57c037.js",
+    "static/media/15.webp": "/Quinta-Maya/static/media/15.c51d4feac18f0bad5d8c.webp",
+    "static/media/14.webp": "/Quinta-Maya/static/media/14.2e2a28d20b1fcac24ba1.webp",
+    "static/media/12.webp": "/Quinta-Maya/static/media/12.fa60f82aa7af3a19df59.webp",
+    "static/media/5.webp": "/Quinta-Maya/static/media/5.dae828d8940aa5097459.webp",
+    "static/media/9.webp": "/Quinta-Maya/static/media/9.a3e44b1d96627f9c551e.webp",
+    "static/media/13.webp": "/Quinta-Maya/static/media/13.7e5f30c0d47662b36b07.webp",
+    "static/media/7.webp": "/Quinta-Maya/static/media/7.e240f4f1e5028d17b893.webp",
+    "static/media/11.webp": "/Quinta-Maya/static/media/11.c1813fc778358d229b83.webp",
+    "static/media/4.webp": "/Quinta-Maya/static/media/4.f032f31a7f8456b733db.webp",
+    "static/media/1.webp": "/Quinta-Maya/static/media/1.35e7d55809a1e717765c.webp",
+    "static/media/6.webp": "/Quinta-Maya/static/media/6.7856c7995dae978e2925.webp",
+    "static/media/8.webp": "/Quinta-Maya/static/media/8.5d5fb8dfd7c7038c551f.webp",
     "static/media/logo.png": "/Quinta-Maya/static/media/logo.460a1fdd60d16d3b1d03.png",
+    "static/media/2.webp": "/Quinta-Maya/static/media/2.3ebe83d104c5254ffad3.webp",
     "static/media/logo2.png": "/Quinta-Maya/static/media/logo2.98bffdc533b68780603e.png",
+    "static/media/10.webp": "/Quinta-Maya/static/media/10.e45c3c4b83fda4fee94a.webp",
     "index.html": "/Quinta-Maya/index.html",
-    "main.c382f3be.css.map": "/Quinta-Maya/static/css/main.c382f3be.css.map",
-    "main.42e523af.js.map": "/Quinta-Maya/static/js/main.42e523af.js.map"
+    "main.fc04af46.css.map": "/Quinta-Maya/static/css/main.fc04af46.css.map",
+    "main.ea57c037.js.map": "/Quinta-Maya/static/js/main.ea57c037.js.map"
   },
   "entrypoints": [
-    "static/css/main.c382f3be.css",
-    "static/js/main.42e523af.js"
+    "static/css/main.fc04af46.css",
+    "static/js/main.ea57c037.js"
   ]
 }
