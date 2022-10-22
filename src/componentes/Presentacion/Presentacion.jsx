@@ -6,6 +6,9 @@ import {MdOutlineBedroomBaby} from "react-icons/md"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
+import img1 from "../../img/10.webp"
+import img2 from "../../img/12.webp"
+import img3 from "../../img/11.webp"
 
 export default function Presentacion() {
 
@@ -28,15 +31,15 @@ export default function Presentacion() {
       </div>
 
       <div className="about-galeria">
-        <img src={"https://i.ibb.co/qn51y2C/10.webp"} alt="" className='about-galeria_img' data-aos="fade-in" />
+        <img src={img1} alt="" className='about-galeria_img' data-aos="fade-in" />
         <div className="box-galeria" data-aos="fade-in">
           <GiKnifeFork className='galeria-icon'/> <h4>Servicio de Catering</h4>
         </div>
-        <img src={"https://i.ibb.co/d0mSm6C/12.webp"} alt="" className='about-galeria_img' data-aos="fade-in" />
+        <img src={img2} alt="" className='about-galeria_img' data-aos="fade-in" />
         <div className="box-galeria" data-aos="fade-in">
           <GiGlassCelebration className='galeria-icon'/> <h4>Eventos formales e informales</h4>
         </div>
-        <img src={"https://i.ibb.co/k2kzxSJ/11.webp"} alt="" className='about-galeria_img' data-aos="fade-in"/>
+        <img src={img3} alt="" className='about-galeria_img' data-aos="fade-in"/>
         <div className="box-galeria" data-aos="fade-in">
           <MdOutlineBedroomBaby className='galeria-icon'/> <h4>Eventos infantiles</h4>
         </div>
