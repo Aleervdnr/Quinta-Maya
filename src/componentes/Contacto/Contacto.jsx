@@ -29,7 +29,7 @@ export default function Contacto() {
             <li className="contacto_li" data-aos="fade-up">
             📍 Glew, Almirante Brown, Zona Sur, Bs. As.</li>
             <li className="contacto_li"data-aos="fade-down">
-              <a className='call' href="tel:+541133928295">📲 WhatsApp: 11 3392-8295</a>
+              <a className='call' href="https://wa.me/541133928295?text=Hola%20Quinta%20Maya,%20estoy%20interesado%20en%20sus%20servicios" target="_blank" rel="noopener noreferrer">📲 WhatsApp: 11 3392-8295</a>
             </li>
           </ul>
           <span data-aos="fade-in">Contactanos para ampliar la información.</span>

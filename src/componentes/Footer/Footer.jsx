@@ -14,7 +14,7 @@ function Footer() {
           <FaInstagram className='footer-icon'/>
             
           </a>
-          <a href="tel:+541133928295" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/541133928295?text=Hola%20Quinta%20Maya,%20estoy%20interesado%20en%20sus%20servicios" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className='footer-icon'/>
             
           </a>
