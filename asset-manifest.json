@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Quinta-Maya/static/css/main.a24b7a4a.css",
-    "main.js": "/Quinta-Maya/static/js/main.7ed40cba.js",
+    "main.js": "/Quinta-Maya/static/js/main.8fc6deec.js",
     "static/css/930.aa31b357.chunk.css": "/Quinta-Maya/static/css/930.aa31b357.chunk.css",
     "static/js/930.c5615651.chunk.js": "/Quinta-Maya/static/js/930.c5615651.chunk.js",
     "static/css/853.7aa96fc1.chunk.css": "/Quinta-Maya/static/css/853.7aa96fc1.chunk.css",
@@ -9,7 +9,7 @@
     "static/css/938.511f4d0a.chunk.css": "/Quinta-Maya/static/css/938.511f4d0a.chunk.css",
     "static/js/938.a24336fe.chunk.js": "/Quinta-Maya/static/js/938.a24336fe.chunk.js",
     "static/css/839.8a97330d.chunk.css": "/Quinta-Maya/static/css/839.8a97330d.chunk.css",
-    "static/js/839.4d88e486.chunk.js": "/Quinta-Maya/static/js/839.4d88e486.chunk.js",
+    "static/js/839.dc0a5e12.chunk.js": "/Quinta-Maya/static/js/839.dc0a5e12.chunk.js",
     "static/js/14.51590557.chunk.js": "/Quinta-Maya/static/js/14.51590557.chunk.js",
     "static/js/919.3a0c4440.chunk.js": "/Quinta-Maya/static/js/919.3a0c4440.chunk.js",
     "static/js/856.0f4d0b30.chunk.js": "/Quinta-Maya/static/js/856.0f4d0b30.chunk.js",
@@ -31,7 +31,7 @@
     "static/media/10.webp": "/Quinta-Maya/static/media/10.e45c3c4b83fda4fee94a.webp",
     "index.html": "/Quinta-Maya/index.html",
     "main.a24b7a4a.css.map": "/Quinta-Maya/static/css/main.a24b7a4a.css.map",
-    "main.7ed40cba.js.map": "/Quinta-Maya/static/js/main.7ed40cba.js.map",
+    "main.8fc6deec.js.map": "/Quinta-Maya/static/js/main.8fc6deec.js.map",
     "930.aa31b357.chunk.css.map": "/Quinta-Maya/static/css/930.aa31b357.chunk.css.map",
     "930.c5615651.chunk.js.map": "/Quinta-Maya/static/js/930.c5615651.chunk.js.map",
     "853.7aa96fc1.chunk.css.map": "/Quinta-Maya/static/css/853.7aa96fc1.chunk.css.map",
@@ -39,13 +39,13 @@
     "938.511f4d0a.chunk.css.map": "/Quinta-Maya/static/css/938.511f4d0a.chunk.css.map",
     "938.a24336fe.chunk.js.map": "/Quinta-Maya/static/js/938.a24336fe.chunk.js.map",
     "839.8a97330d.chunk.css.map": "/Quinta-Maya/static/css/839.8a97330d.chunk.css.map",
-    "839.4d88e486.chunk.js.map": "/Quinta-Maya/static/js/839.4d88e486.chunk.js.map",
+    "839.dc0a5e12.chunk.js.map": "/Quinta-Maya/static/js/839.dc0a5e12.chunk.js.map",
     "14.51590557.chunk.js.map": "/Quinta-Maya/static/js/14.51590557.chunk.js.map",
     "919.3a0c4440.chunk.js.map": "/Quinta-Maya/static/js/919.3a0c4440.chunk.js.map",
     "856.0f4d0b30.chunk.js.map": "/Quinta-Maya/static/js/856.0f4d0b30.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a24b7a4a.css",
-    "static/js/main.7ed40cba.js"
+    "static/js/main.8fc6deec.js"
   ]
 }
